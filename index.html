@@ -8,24 +8,26 @@
   </head>
   <body>
   	<div class="menu">
-  		<div id="menu-left">
-	  		<div id="logo"><img src="images/logo.png"></div>
-	  		<a href="#">CREATE EVENT</a>
-  		</div>
-  		<div id="menu-right">
-		  	<ul>
-		  		<li><a href="#">EVENTS</a></li>
-		  		<li><a href="#">NOTIFICATIONS</a></li>
-		  		<li><a href="#">MESSAGES</a></li>
-		 		</ul>
-		 		<a href="#" id="green-btn">MY EVENTS</a>
-		 		<div id="nickname">
-		 			<a href="#">
-		 				<span class="hi">HI SOMEBODY</span>
-						<span class="arrow"></span>
-		 			</a>
-				</div>
-	 		</div>
+  		<div id="menu-holder">
+	  		<div id="menu-left">
+		  		<div id="logo"><img src="images/logo.png"></div>
+		  		<a href="#">CREATE EVENT</a>
+	  		</div>
+	  		<div id="menu-right">
+			  	<ul>
+			  		<li><a href="#">EVENTS</a></li>
+			  		<li><a href="#">NOTIFICATIONS</a></li>
+			  		<li><a href="#">MESSAGES</a></li>
+			 		</ul>
+			 		<a href="#" id="green-btn">MY EVENTS</a>
+			 		<div id="nickname">
+			 			<a href="#">
+			 				<span class="hi">HI SOMEBODY</span>
+							<span class="arrow"></span>
+			 			</a>
+					</div>
+		 		</div>
+		 	</div>
   	</div>
   	<div id="main-content">
 	  	<div id="left">
@@ -47,7 +49,7 @@
 			  	<div id="photo"></div>
 			  	<div class="pages">
 			  		<ul>
-			  			<li><a href="#" class="button">HOME</a></li>
+			  			<li><a href="#" class="button active">HOME</a></li>
 			  			<li><a href="#" class="button">NEWS</a></li>
 			  			<li><a href="#" class="button">SCHEDULE</a></li>
 			  			<li><a href="#" class="button">SPEAKERS</a></li>
@@ -55,11 +57,11 @@
 			  		</ul>
 			  	</div>
 			  	<div class="text">
-			  		<div id="text1">
+			  		<div class="text-block">
 			  			<h2>10,000+ OF THE WORLD'S BRIGHTEST MINDS IN TECHNOLOGY</h2>
 			  			<p>Nullam in eleifend dui, dignissim tempor erat. Integer at eros ac nisl auctor euismod. Ut quis dignissim nibh, et malesuada eros. Pellentesque a tempus ex. Morbi nec ultrices dui, ac blandit arcu. Etiam porta lectus sit amet lacus mattis ultricies. Nulla quis eleifend leo. Nunc libero dui, molestie mollis enim sed, blandit commodo nibh. Suspendisse efficitur dictum porta. Morbi arcu mi, pulvinar vitae est at, pulvinar bibendum ligula.</p>
 			  		</div>
-			  		<div id="text2">
+			  		<div class="text-block">
 			  			<h2>THE WORLD'S LEADING TECH COMPANIES + YOU</h2>
 			  			<p>Proin in lectus diam. Nullam pretium justo enim, et varius dolor rhoncus id. Cras in elit ante. Quisque id dapibus quam. In placerat blandit sapien id pulvinar. Donec placerat, sapien pretium pulvinar sodales, dolor magna suscipit augue, in facilisis justo mauris nec diam. Phasellus aliquet, est vitae viverra lobortis, arcu urna egestas eros, vitae vestibulum erat tortor et justo. Quisque malesuada enim vel quam varius, at finibus lorem egestas. Nulla ex nibh, eleifend sit amet consectetur id, maximus a lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. In nisi ante, luctus nec mauris ac, luctus ullamcorper risus. Sed augue arcu, bibendum id dolor ut, consectetur porttitor odio. Nullam augue erat, ultricies vitae commodo in, consequat ac lorem. In aliquet lorem auctor, ultricies nisi id, interdum ipsum. In pulvinar pharetra velit, nec condimentum tortor dapibus nec. Aliquam tortor nisl, consequat lacinia lorem sed, scelerisque suscipit elit.</p></br>
 			  			<p>Proin ipsum erat, vestibulum et dolor vel, commodo rhoncus purus. Curabitur turpis risus, volutpat in dolor nec, finibus sodales diam. Ut egestas, erat sit amet dictum volutpat, lectus mauris porta felis, vel ornare leo massa vitae metus. Aliquam hendrerit iaculis arcu id rutrum. Integer at libero non neque vehicula pretium iaculis in dui. Vestibulum efficitur tortor et leo elementum, sed lobortis leo maximus. Nam gravida pretium odio, porttitor faucibus elit mattis eget. Donec at congue eros. Nullam sed ex ligula. Cras malesuada lorem vel efficitur congue. Praesent vel nisl id purus mollis dictum ac aliquet mauris. Donec finibus lacinia blandit. Etiam eget suscipit tellus.</p></br>
@@ -88,21 +90,21 @@
 		  			</ul>
 		  		</div>
 		  	</div>
-		  	<div class="date">
+		  	<div class="box">
 		  		<a href="#" class="button" class="green-short">DATE</a>
 		  		<div class="tooth-little"></div>
 		  		<p class="p-left" id="date">14-18.06.2014</p>
 		  		<p class="p-right"><a href="#">ADD TO CALENDAR</a></p>
 		  	</div>
-		  	<div class="date">
-		  		<a href="#" class="button" class="green-short" id="location">LOCATION</a>
+		  	<div class="box" id="location">
+		  		<a href="#" class="button" class="green-short">LOCATION</a>
 		  		<div class="tooth-little"></div>
 		  		<p class="p-left">RDS MAIN HALL, BALLSBRIDGE, DUBLIN 4</p>
 		  		<div id="map">
 		  			<a href="#"><img src="images/map1.png"></a>
 		  		</div>
 		  	</div>
-		  	<div class="date">
+		  	<div class="box">
 		  		<a href="#" class="button" class="green-short">YOUR FRIENDS ON WEB SUMMIT</a>
 		  		<div class="tooth-little"></div>
 		  		<div class="avatars">
@@ -117,7 +119,7 @@
 			  		</div>
 		  		</div>
 		  	</div>
-		  	<div class="date">
+		  	<div class="box">
 		  		<a href="#" class="button" class="green-short">TICKETS</a>
 		  		<div class="tooth-little"></div>
 		  		<div class="until">
@@ -164,7 +166,7 @@
 	  <div id="bottom">
 	  	<div class="tooth-white"></div>
 	  	<div id="footer">
-	  		<div class="column_1_3">
+	  		<div class="first_last_column">
 	  			<div>
 		  			<h2>LOREM IPSUM</h2>
 		  			<h3>Lorem ipsum</h3>
@@ -172,18 +174,14 @@
 		  			<p>Donec at congue eros. Nullam sed ex ligula. Cras malesuada lorem vel efficitur congue. Praesent vel nisl id purus mollis dictum ac aliquet mauris. Donec finibus lacinia blandit. Etiam eget suscipit tellus.</p>
 		  		</div>
 	  		</div>
-	  		<div class="column_2">
+	  		<div class="middle_column">
 	  			<div>
 	  				<h2>MORE STUFF</h2>
-	  				<table>
-		  				<tr>
-		  					<td>Maecenas blandit rhoncus nibh, sed iaculis libero vehicula sed. Vivamus et tempus ipsum, et condimentum lorem.</td>
-		  					<td id="table-right">Maecenas blandit rhoncus nibh, sed iaculis libero vehicula sed. Vivamus et tempus ipsum, et condimentum lorem.</td>
-		  				</tr>
-		  			</table>
+	  				<p>Maecenas blandit rhoncus nibh, sed iaculis libero vehicula sed. Vivamus et tempus ipsum, et condimentum lorem.</p>
+		  			<p>Maecenas blandit rhoncus nibh, sed iaculis libero vehicula sed. Vivamus et tempus ipsum, et condimentum lorem.</p>
 	  			</div>
 	  		</div>
-	  		<div class="column_1_3">
+	  		<div class="first_last_column">
 	  			<div>
 	  				<h2>CONTACT</h2>
 	  				<p>Telefon: +48 609 467 122, Telefon: +48 33 817 71 94</p>
